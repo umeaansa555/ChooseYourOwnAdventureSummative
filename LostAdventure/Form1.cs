@@ -36,7 +36,22 @@ namespace LostAdventure
             /// Check what page we are currently on, and then flip
             /// to the page you need to go to if you selected option 1
 
-            if (page == 1) { page = 2; }
+            
+            if (page == 1)
+            {
+                Random randGen = new Random();
+                int randValue = randGen.Next(1, 101);
+                if (randValue < 55)
+                {
+                    page = 2;
+                }
+                else
+                {
+                    page = 4;
+                }
+                
+            }
+
             else if (page == 2) { page = 99; }
             else if (page == 3) { page = 5; }
             else if (page == 4) { page = 6; }
