@@ -95,18 +95,19 @@ namespace LostAdventure
             // 
             this.option3Label.Font = new System.Drawing.Font("Courier New", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.option3Label.ForeColor = System.Drawing.Color.White;
-            this.option3Label.Location = new System.Drawing.Point(336, 408);
+            this.option3Label.Location = new System.Drawing.Point(67, 480);
             this.option3Label.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.option3Label.Name = "option3Label";
             this.option3Label.Size = new System.Drawing.Size(225, 23);
             this.option3Label.TabIndex = 14;
             this.option3Label.Text = "option3Label";
             this.option3Label.Visible = false;
+//            this.option3Label.Click += new System.EventHandler(this.option3Label_Click);
             // 
             // option3Button
             // 
             this.option3Button.Image = global::LostAdventure.Properties.Resources.arrowRight;
-            this.option3Button.Location = new System.Drawing.Point(293, 398);
+            this.option3Button.Location = new System.Drawing.Point(24, 471);
             this.option3Button.Margin = new System.Windows.Forms.Padding(2);
             this.option3Button.Name = "option3Button";
             this.option3Button.Size = new System.Drawing.Size(39, 32);
@@ -157,7 +158,7 @@ namespace LostAdventure
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(522, 494);
+            this.ClientSize = new System.Drawing.Size(522, 528);
             this.Controls.Add(this.option3Label);
             this.Controls.Add(this.option3Button);
             this.Controls.Add(this.output2Label);

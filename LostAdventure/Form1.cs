@@ -26,6 +26,8 @@ namespace LostAdventure
             output2Label.Text = "Where will you go?";
             option1Label.Text = "Straight into the grass. No pokeballs. (55 % success)";
             option2Label.Text = "Oak's house";
+            option3Label.Visible = false;
+            option3Button.Visible = false;
 
             SoundPlayer openingPlayer = new SoundPlayer(Properties.Resources.Opening___Title_Screen___Pokémon_Red_Green_Blue);
             openingPlayer.Play();
@@ -127,6 +129,8 @@ namespace LostAdventure
                     output2Label.Text = "Where will you go?";
                     option1Label.Text = "Straight into the grass. No pokeballs. (55 % success)";
                     option2Label.Text = "Oak's house";
+                    option3Label.Visible = false;
+                    option3Button.Visible = false;
                     SoundPlayer openingPlayer = new SoundPlayer(Properties.Resources.Opening___Title_Screen___Pokémon_Red_Green_Blue);
                     openingPlayer.Play();
 
@@ -180,6 +184,8 @@ namespace LostAdventure
                     output2Label.Text = "Do you go to Celadon City with him? (OLD MAN)";
                     option1Label.Text = "Yes";
                     option2Label.Text = "No";
+                    option3Label.Visible = false;
+                    option3Button.Visible = false;
                     break;
                 case 7:
                     // Display page message and options
