@@ -206,6 +206,63 @@ namespace LostAdventure
                     option1Label.Text = "Yes";
                     option2Label.Text = "No";
                     break;
+
+
+                case 10:
+                    outputLabel.Text = "You find yourself in Viridian forest.";
+                    output2Label.Text = "What will you do in Viridian Forest?";
+                    option1Label.Text = "Beat up the youngsters while procedurally working through the forest";
+                    option2Label.Text = "Avoid battles, opting to walk through the grass";
+                    break;
+                case 11:
+                    outputLabel.Text = "You beat all the trainers in the area. Bug Catchers are now an endangered species.";
+                    output2Label.Text = "They're all begging for mercy. Do you spare them and their metapods?";
+                    option1Label.Text = "No";
+                    option2Label.Text = "Yes";
+                    break;
+                case 12:
+                    outputLabel.Text = "You drain these poor bug catchers of their exp and pocket money. You're the strongest trainer in the forest and maybe even all of kanto but at what cost... Was it worth it?";
+                    output2Label.Text = "Was it worth it?\n MERCILESS ENDING";
+                    option1Label.Text = "No";
+                    option2Label.Text = "Yes";
+                    break;
+                case 13:
+                    outputLabel.Text = "Uh oh. Its a level 100 Nidoking";
+                    output2Label.Text = "Do you fight, and attempt to catch it, or run?";
+                    option1Label.Text = "Fight";
+                    option2Label.Text = "Run";
+                    break;
+                case 14:
+                    outputLabel.Text = "You get one attack in and then Nidoking whips your {chosenStarter} and the rest of your team promptly.";
+                    output2Label.Text = "What were you thinking???";
+                    option1Label.Text = "uhmmm";
+                    option2Label.Text = "uhhh";
+                    break;
+                case 15:
+                    outputLabel.Text = "You make it out of the forest (not wholly the same person as you were before) and arrive at Pewter City.";
+                    output2Label.Text = "What will you do in Pewter City?";
+                    option1Label.Text = "talk to the team rocket member loitering";
+                    option2Label.Text = "challenge the gym";
+                    break;
+                case 16:
+                    outputLabel.Text = "She tries to convince you to join team rocket quite persuasively too. Good insurance benefits";
+                    output2Label.Text = "Do you join Team Rocket?";
+                    option1Label.Text = "Yes";
+                    option2Label.Text = "No";
+                    break;
+                case 17:
+                    outputLabel.Text = "She lied?? theres no opportunity at team Rocket. You spend the rest if your life as a measly rocket grunt, never promoted";
+                    output2Label.Text = "ROCKET ENDING";
+                    option1Label.Text = " ";
+                    option2Label.Text = " ";
+                    break;
+                case 18:
+                    outputLabel.Text = "Your good sense and reason have brought you this far. You challenge Brock and win!";
+                    output2Label.Text = "GYM LEADER ENDING";
+                    option1Label.Text = " ";
+                    option2Label.Text = " ";
+                    break;
+
                 case 99:
                     // Display page message and options
                     outputLabel.Text = "You black out and wake up at a pokemon center. Get up and try your journey again?";
