@@ -47,8 +47,9 @@ namespace LostAdventure
             // 
             // option2Label
             // 
-            this.option2Label.Font = new System.Drawing.Font("Courier New", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.option2Label.ForeColor = System.Drawing.Color.White;
+            this.option2Label.BackColor = System.Drawing.Color.Transparent;
+            this.option2Label.Font = new System.Drawing.Font("OCR A Extended", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.option2Label.ForeColor = System.Drawing.Color.Black;
             this.option2Label.Location = new System.Drawing.Point(67, 444);
             this.option2Label.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.option2Label.Name = "option2Label";
@@ -58,8 +59,9 @@ namespace LostAdventure
             // 
             // option1Label
             // 
-            this.option1Label.Font = new System.Drawing.Font("Courier New", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.option1Label.ForeColor = System.Drawing.Color.White;
+            this.option1Label.BackColor = System.Drawing.Color.Transparent;
+            this.option1Label.Font = new System.Drawing.Font("OCR A Extended", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.option1Label.ForeColor = System.Drawing.Color.Black;
             this.option1Label.Location = new System.Drawing.Point(67, 408);
             this.option1Label.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.option1Label.Name = "option1Label";
@@ -69,43 +71,47 @@ namespace LostAdventure
             // 
             // outputLabel
             // 
+            this.outputLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.outputLabel.AutoSize = true;
             this.outputLabel.BackColor = System.Drawing.Color.Transparent;
-            this.outputLabel.Font = new System.Drawing.Font("Courier New", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.outputLabel.ForeColor = System.Drawing.Color.White;
+            this.outputLabel.Font = new System.Drawing.Font("OCR A Extended", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.outputLabel.ForeColor = System.Drawing.Color.Black;
             this.outputLabel.Location = new System.Drawing.Point(24, 18);
-            this.outputLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.outputLabel.Margin = new System.Windows.Forms.Padding(2);
             this.outputLabel.Name = "outputLabel";
-            this.outputLabel.Size = new System.Drawing.Size(537, 82);
+            this.outputLabel.Size = new System.Drawing.Size(95, 13);
             this.outputLabel.TabIndex = 8;
             this.outputLabel.Text = "outputLabel";
             // 
             // output2Label
             // 
             this.output2Label.BackColor = System.Drawing.Color.Transparent;
-            this.output2Label.Font = new System.Drawing.Font("Courier New", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.output2Label.ForeColor = System.Drawing.Color.White;
+            this.output2Label.Font = new System.Drawing.Font("OCR A Extended", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.output2Label.ForeColor = System.Drawing.Color.Black;
             this.output2Label.Location = new System.Drawing.Point(24, 69);
             this.output2Label.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.output2Label.Name = "output2Label";
-            this.output2Label.Size = new System.Drawing.Size(537, 82);
+            this.output2Label.Size = new System.Drawing.Size(537, 31);
             this.output2Label.TabIndex = 12;
             this.output2Label.Text = "output2Label";
             // 
             // option3Label
             // 
-            this.option3Label.Font = new System.Drawing.Font("Courier New", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.option3Label.ForeColor = System.Drawing.Color.White;
+            this.option3Label.BackColor = System.Drawing.Color.Transparent;
+            this.option3Label.Font = new System.Drawing.Font("OCR A Extended", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.option3Label.ForeColor = System.Drawing.Color.Black;
             this.option3Label.Location = new System.Drawing.Point(67, 480);
             this.option3Label.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.option3Label.Name = "option3Label";
-            this.option3Label.Size = new System.Drawing.Size(225, 23);
+            this.option3Label.Size = new System.Drawing.Size(412, 23);
             this.option3Label.TabIndex = 14;
             this.option3Label.Text = "option3Label";
             this.option3Label.Visible = false;
-//            this.option3Label.Click += new System.EventHandler(this.option3Label_Click);
             // 
             // option3Button
             // 
+            this.option3Button.Cursor = System.Windows.Forms.Cursors.Hand;
             this.option3Button.Image = global::LostAdventure.Properties.Resources.arrowRight;
             this.option3Button.Location = new System.Drawing.Point(24, 471);
             this.option3Button.Margin = new System.Windows.Forms.Padding(2);
@@ -119,18 +125,18 @@ namespace LostAdventure
             // 
             // imageBox
             // 
-            this.imageBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.imageBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.imageBox.Image = global::LostAdventure.Properties.Resources.Pallet_Town_RBY;
-            this.imageBox.Location = new System.Drawing.Point(86, 102);
-            this.imageBox.Margin = new System.Windows.Forms.Padding(2);
+            this.imageBox.Location = new System.Drawing.Point(24, 102);
+            this.imageBox.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.imageBox.Name = "imageBox";
-            this.imageBox.Size = new System.Drawing.Size(320, 288);
-            this.imageBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.imageBox.Size = new System.Drawing.Size(477, 288);
             this.imageBox.TabIndex = 11;
             this.imageBox.TabStop = false;
             // 
             // option2Button
             // 
+            this.option2Button.Cursor = System.Windows.Forms.Cursors.Hand;
             this.option2Button.Image = global::LostAdventure.Properties.Resources.arrowRight;
             this.option2Button.Location = new System.Drawing.Point(24, 434);
             this.option2Button.Margin = new System.Windows.Forms.Padding(2);
@@ -143,6 +149,7 @@ namespace LostAdventure
             // 
             // option1Button
             // 
+            this.option1Button.Cursor = System.Windows.Forms.Cursors.Hand;
             this.option1Button.Image = global::LostAdventure.Properties.Resources.arrowRight;
             this.option1Button.Location = new System.Drawing.Point(24, 398);
             this.option1Button.Margin = new System.Windows.Forms.Padding(2);
@@ -157,8 +164,8 @@ namespace LostAdventure
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(522, 528);
+            this.BackColor = System.Drawing.SystemColors.Control;
+            this.ClientSize = new System.Drawing.Size(522, 513);
             this.Controls.Add(this.option3Label);
             this.Controls.Add(this.option3Button);
             this.Controls.Add(this.output2Label);

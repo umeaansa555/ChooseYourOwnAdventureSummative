@@ -128,5 +128,14 @@
   <ItemGroup>
     <None Include="Resources\Pallet_Town_RBY.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Celadon_Game_Corner_RBY.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Viridian_Forest_RBY.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Viridian_City_RBY.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

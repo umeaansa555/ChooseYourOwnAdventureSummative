@@ -122,6 +122,16 @@ namespace LostAdventure.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Celadon_Game_Corner_RBY {
+            get {
+                object obj = ResourceManager.GetObject("Celadon_Game_Corner_RBY", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap deepBrush {
             get {
                 object obj = ResourceManager.GetObject("deepBrush", resourceCulture);
@@ -193,6 +203,26 @@ namespace LostAdventure.Properties {
         internal static System.Drawing.Bitmap red_50x50 {
             get {
                 object obj = ResourceManager.GetObject("red_50x50", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Viridian_City_RBY {
+            get {
+                object obj = ResourceManager.GetObject("Viridian_City_RBY", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Viridian_Forest_RBY {
+            get {
+                object obj = ResourceManager.GetObject("Viridian_Forest_RBY", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
