@@ -27,8 +27,8 @@ namespace LostAdventure
             option1Label.Text = "Straight into the grass. No pokeballs. (55 % success)";
             option2Label.Text = "Oak's house";
 
-            SoundPlayer junglePlayer = new SoundPlayer(Properties.Resources.jungle);
-            junglePlayer.Play();
+            SoundPlayer openingPlayer = new SoundPlayer(Properties.Resources.Opening___Title_Screen___Pokémon_Red_Green_Blue);
+            openingPlayer.Play();
         }
 
         private void option1Button_Click(object sender, EventArgs e)
@@ -112,10 +112,10 @@ namespace LostAdventure
                     output2Label.Text = "Where will you go?";
                     option1Label.Text = "Straight into the grass. No pokeballs. (55 % success)";
                     option2Label.Text = "Oak's house";
-                    SoundPlayer junglePlayer = new SoundPlayer(Properties.Resources.jungle);
-                    junglePlayer.Play();
+                    SoundPlayer openingPlayer = new SoundPlayer(Properties.Resources.Opening___Title_Screen___Pokémon_Red_Green_Blue);
+                    openingPlayer.Play();
 
-                    imageBox.Image = (Properties.Resources.deepBrush);
+                    imageBox.Image = (Properties.Resources.Pallet_Town_RBY);
                     break;
                 case 2:
                     // Display page message and options

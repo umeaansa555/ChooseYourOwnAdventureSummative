@@ -122,5 +122,11 @@
   <ItemGroup>
     <None Include="Resources\Draseart-Dumper-PokeBall.ico" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Opening &amp; Title Screen - Pokémon Red_Green_Blue.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pallet_Town_RBY.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
