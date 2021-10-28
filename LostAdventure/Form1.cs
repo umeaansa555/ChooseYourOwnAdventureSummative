@@ -95,7 +95,7 @@ namespace LostAdventure
             if (page == 1) { page = 3; }
             else if (page == 2) { page = 99; }
             else if (page == 3) { page = 5; }
-            else if (page == 4) { page = 5; }
+            else if (page == 4) { page = 7; }
             else if (page == 5) { page = 7; }
             else if (page == 6) { page = 5; }
             else if (page == 7) { page = 5; }
@@ -103,6 +103,7 @@ namespace LostAdventure
             else if (page == 9) { page = 99; }
 
             else if (page == 10) { page = 13; }
+            else if (page == 11) { page = 15; }
             else if (page == 12) { page = 97; }
 
             else if (page == 13)
@@ -119,7 +120,7 @@ namespace LostAdventure
                 }
 
             }
-            
+
             else if (page == 14) { page = 99; }
             else if (page == 15) { page = 18; }
             else if (page == 16) { page = 15; }
@@ -175,8 +176,8 @@ namespace LostAdventure
                 case 2:
                     // Display page message and options
                     outputLabel.Text = "You get pecked to death by a pidgey. Idiot";
-                    output2Label.Text = "";
-                    option1Label.Text = "yes";
+                    output2Label.Text = "IDIOT ENDING";
+                    option1Label.Text = "Yeah, that was stupid";
                     option2Label.Text = "...";
                     SoundPlayer brookPlayer = new SoundPlayer(Properties.Resources.brook);
                     brookPlayer.Play();
@@ -199,14 +200,14 @@ namespace LostAdventure
                     outputLabel.Text = "Beating the odds, you made it through to Viridian City!";
                     output2Label.Text = "What will you do in Viridian City?";
                     option1Label.Text = "Talk to the local elderly men";
-                    option2Label.Text = "Challenge the gym (diifcult)";
+                    option2Label.Text = "Challenge the gym (difficult)";
                     option3Label.Text = "Move on to the next city (better fit for your level)";
                     option3Label.Visible = true;
                     option3Button.Visible = true;
                     break;
                 case 5:
                     // Display page message and options
-                    outputLabel.Text = "You make it to Viridian safely. What's your next move?";
+                    outputLabel.Text = "You're in the heart of Viridian now. What's your next move?";
                     output2Label.Text = "What will you do in Viridian City?";
                     option1Label.Text = "Talk to the local elderly men";
                     option2Label.Text = "Challenge the gym (difficult)";
@@ -216,8 +217,8 @@ namespace LostAdventure
                     break;
                 case 6:
                     // Display page message and options
-                    outputLabel.Text = $"He tells you suspiciously that he knows a place in Celadon where you can get rich (quick!), and that he's going there soon and can take you.";
-                    output2Label.Text = "Do you go to Celadon City with him? (OLD MAN)";
+                    outputLabel.Text = "He tells you shiftily that he knows a place in Celadon where you can get rich (quick!), and that he's going there soon and can take you.";
+                    output2Label.Text = "Do you go to Celadon City with him? ***(OLD MAN)***";
                     option1Label.Text = "Yea lol";
                     option2Label.Text = "No way? Dude";
                     option3Label.Visible = false;
@@ -225,20 +226,22 @@ namespace LostAdventure
                     break;
                 case 7:
                     // Display page message and options
-                    outputLabel.Text = $"It's much higher than your current skill level. The gym leader is also an infamous gang boss. Do you still challenge Giovanni?";
-                    output2Label.Text = $"Do you still want to challenge the gym?";
+                    outputLabel.Text = "It's much higher than your current skill level. The gym leader is also an infamous gang boss. Do you still challenge Giovanni?";
+                    output2Label.Text = "Do you still want to challenge the gym?";
                     option1Label.Text = "I can take him";
                     option2Label.Text = "What? No";
+                    option3Label.Visible = false;
+                    option3Button.Visible = false;
                     break;
                 case 8:
-                    outputLabel.Text = $"You get rich as promised and completely forget about your old life. You can't remember why you ever wanted to be a pokemon trainer at all. Play again?";
-                    output2Label.Text = $"OLD MAN ENDING";
+                    outputLabel.Text = "You get rich as promised and completely forget about your old life. You can't remember why you ever wanted to be a pokemon trainer at all. Play again?";
+                    output2Label.Text = "OLD MAN ENDING";
                     option1Label.Text = "";
                     option2Label.Text = "";
                     break;
                 case 9:
-                    outputLabel.Text = $"Your sad level 9 team gets swept. Don't know what you expected.";
-                    output2Label.Text = $"NOOB ENDING";
+                    outputLabel.Text = "Your sad level 9 team gets swept. Don't know what you expected.";
+                    output2Label.Text = "NOOB ENDING";
                     option1Label.Text = ":(";
                     option2Label.Text = ":{";
                     break;
@@ -255,22 +258,24 @@ namespace LostAdventure
                 case 11:
                     outputLabel.Text = "You beat all the trainers in the area. Bug Catchers are now an endangered species.";
                     output2Label.Text = "They're all begging for mercy. Do you spare them and their metapods?";
-                    option1Label.Text = "No";
-                    option2Label.Text = "Yes";
+                    option1Label.Text = "No mercy.";
+                    option2Label.Text = "Yes mercy?!";
                     break;
                 case 12:
-                    outputLabel.Text = "You drain these poor bug catchers of their exp and pocket money. You're the strongest trainer in the forest and maybe even all of kanto but at what cost... Was it worth it?";
-                    output2Label.Text = "Was it worth it?\n MERCILESS ENDING";
-                    option1Label.Text = "No";
-                    option2Label.Text = "Yes";
+                    outputLabel.Text = "You drain these poor bug catchers of their exp and pocket money. You're the strongest trainer in the forest and maybe even all of kanto but at what cost...";
+                    output2Label.Text = "Was it worth it?\nMERCILESS ENDING";
+                    option1Label.Text = "...";
+                    option1Label.ForeColor = Color.Red;
+                    option2Label.Text = "...";
                     break;
                 case 13:
-                    outputLabel.Text = "Uh oh. It's a level 100 Nidoking";
+                    outputLabel.Text = "Uh oh. It's a level 100 Nidoking wyd";
                     output2Label.Text = "Do you fight, and attempt to catch it, or run?";
                     option1Label.Text = "Fight";
                     option2Label.Text = "Run";
                     break;
                 case 14:
+                    // the variable isn't meant to work i threw it in as a joke
                     outputLabel.Text = "You get one attack in and then Nidoking whips your {chosenStarter} and the rest of your team promptly.";
                     output2Label.Text = "What were you thinking???";
                     option1Label.Text = "uhmmm";
@@ -279,8 +284,8 @@ namespace LostAdventure
                 case 15:
                     outputLabel.Text = "You make it out of the forest (not wholly the same person as you were before) and arrive at Pewter City.";
                     output2Label.Text = "What will you do in Pewter City?";
-                    option1Label.Text = "talk to the team rocket member loitering";
-                    option2Label.Text = "challenge the gym";
+                    option1Label.Text = "Talk to the team rocket member loitering";
+                    option2Label.Text = "Challenge the gym (Brock)";
                     break;
                 case 16:
                     outputLabel.Text = "She tries to convince you to join team rocket quite persuasively too. Good insurance benefits";
@@ -289,24 +294,26 @@ namespace LostAdventure
                     option2Label.Text = "No";
                     break;
                 case 17:
-                    outputLabel.Text = "She lied?? theres no opportunity at team Rocket. You spend the rest if your life as a measly rocket grunt, never promoted";
+                    outputLabel.Text = "She lied?? There's no opportunity at Team Rocket. You spend the rest if your life as a measly rocket grunt, never promoted";
                     output2Label.Text = "ROCKET ENDING";
-                    option1Label.Text = "";
-                    option2Label.Text = "";
+                    option1Label.Text = "Dang";
+                    option2Label.Text = "Shoot";
                     break;
                 case 18:
                     outputLabel.Text = "Your good sense and reason have brought you this far. You challenge Brock and win!";
                     output2Label.Text = "GYM LEADER ENDING";
-                    option1Label.Text = "";
-                    option2Label.Text = "";
+                    option1Label.Text = "Awesome!";
+                    option2Label.Text = "Nice!";
                     break;
 
                 case 99:
                     // Display page message and options
-                    outputLabel.Text = "You black out and wake up at a pokemon center. Get up and try your journey again?";
+                    outputLabel.Text = "You black out and wake up at a Pokemon Center. Get up and try again!";
                     output2Label.Text = "Play again?";
                     option1Label.Text = "Yes";
                     option2Label.Text = "No";
+                    option3Label.Visible = false;
+                    option3Button.Visible = false;
                     break;
 
                 case 98:
@@ -314,18 +321,25 @@ namespace LostAdventure
                     output2Label.Text = "Play again?";
                     option1Label.Text = "Yes";
                     option2Label.Text = "No";
+                    option3Label.Visible = false;
+                    option3Button.Visible = false;
                     break;
                 case 97:
-                    outputLabel.Text = "You.. Win? Theres another win option! Try to find the other endings;)";
+                    outputLabel.Text = "You.. Win? But that's not the true ending! Keep playing to find them all ;)\nHint: Theres 7";
                     output2Label.Text = "Play again?";
+                    option1Label.ForeColor = Color.Black;
                     option1Label.Text = "Yes";
                     option2Label.Text = "No";
+                    option3Label.Visible = false;
+                    option3Button.Visible = false;
                     break;
                 case 96:
                     outputLabel.Text = "Thanks for playing :)";
-                    output2Label.Text = " ";
-                    option1Label.Text = " ";
-                    option2Label.Text = " ";
+                    output2Label.Text = "";
+                    option1Label.Text = "";
+                    option2Label.Text = "";
+                    option3Label.Visible = false;
+                    option3Button.Visible = false;
                     Thread.Sleep(3000);
                     Application.Exit();
                     break;

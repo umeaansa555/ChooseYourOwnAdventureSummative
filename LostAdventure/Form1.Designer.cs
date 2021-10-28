@@ -88,10 +88,10 @@ namespace LostAdventure
             this.output2Label.BackColor = System.Drawing.Color.Transparent;
             this.output2Label.Font = new System.Drawing.Font("OCR A Extended", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.output2Label.ForeColor = System.Drawing.Color.Black;
-            this.output2Label.Location = new System.Drawing.Point(24, 72);
+            this.output2Label.Location = new System.Drawing.Point(24, 58);
             this.output2Label.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.output2Label.Name = "output2Label";
-            this.output2Label.Size = new System.Drawing.Size(537, 21);
+            this.output2Label.Size = new System.Drawing.Size(537, 34);
             this.output2Label.TabIndex = 12;
             this.output2Label.Text = "output2Label";
             // 
