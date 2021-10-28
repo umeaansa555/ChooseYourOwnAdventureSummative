@@ -137,5 +137,11 @@
   <ItemGroup>
     <None Include="Resources\Viridian_City_RBY.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pewter_Gym_RBY.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Professor_Oak_Lab_inside_RB.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

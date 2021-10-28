@@ -179,10 +179,7 @@ namespace LostAdventure
                     output2Label.Text = "IDIOT ENDING";
                     option1Label.Text = "Yeah, that was stupid";
                     option2Label.Text = "...";
-                    SoundPlayer brookPlayer = new SoundPlayer(Properties.Resources.brook);
-                    brookPlayer.Play();
-
-
+                    imageBox.Image = null;
                     break;
                 case 3:
                     // Display page message and options
@@ -193,7 +190,7 @@ namespace LostAdventure
                     option3Label.Text = "Bulbasaur";
                     option3Label.Visible = true;
                     option3Button.Visible = true;
-
+                    imageBox.Image = Properties.Resources.Professor_Oak_Lab_inside_RB;
                     break;
                 case 4:
                     // Display page message and options
@@ -204,6 +201,7 @@ namespace LostAdventure
                     option3Label.Text = "Move on to the next city (better fit for your level)";
                     option3Label.Visible = true;
                     option3Button.Visible = true;
+                    imageBox.Image = Properties.Resources.Viridian_City_RBY;
                     break;
                 case 5:
                     // Display page message and options
@@ -214,6 +212,7 @@ namespace LostAdventure
                     option3Label.Text = "Move on to the next city (better fit for your level)";
                     option3Label.Visible = true;
                     option3Button.Visible = true;
+                    imageBox.Image = Properties.Resources.Viridian_City_RBY;
                     break;
                 case 6:
                     // Display page message and options
@@ -238,12 +237,14 @@ namespace LostAdventure
                     output2Label.Text = "OLD MAN ENDING";
                     option1Label.Text = "";
                     option2Label.Text = "";
+                    imageBox.Image = Properties.Resources.Celadon_Game_Corner_RBY;
                     break;
                 case 9:
                     outputLabel.Text = "Your sad level 9 team gets swept. Don't know what you expected.";
                     output2Label.Text = "NOOB ENDING";
                     option1Label.Text = ":(";
                     option2Label.Text = ":{";
+                    imageBox.Image = null
                     break;
 
 
@@ -254,6 +255,7 @@ namespace LostAdventure
                     option2Label.Text = "Avoid battles, opting to walk through the grass";
                     option3Label.Visible = false;
                     option3Button.Visible = false;
+                    imageBox.Image = Properties.Resources.Viridian_Forest_RBY;
                     break;
                 case 11:
                     outputLabel.Text = "You beat all the trainers in the area. Bug Catchers are now an endangered species.";
@@ -304,6 +306,7 @@ namespace LostAdventure
                     output2Label.Text = "GYM LEADER ENDING";
                     option1Label.Text = "Awesome!";
                     option2Label.Text = "Nice!";
+                    imageBox.Image = Properties.Resources.Pewter_Gym_RBY;
                     break;
 
                 case 99:
