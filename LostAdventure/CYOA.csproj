@@ -143,5 +143,17 @@
   <ItemGroup>
     <None Include="Resources\Professor_Oak_Lab_inside_RB.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Oldman2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Spr_RG_Red_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pokemon Red_Blue_Yellow Music - Pokemon Recovery.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\black-screen-1-260x520.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

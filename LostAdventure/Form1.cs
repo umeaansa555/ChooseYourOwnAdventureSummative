@@ -179,7 +179,7 @@ namespace LostAdventure
                     output2Label.Text = "IDIOT ENDING";
                     option1Label.Text = "Yeah, that was stupid";
                     option2Label.Text = "...";
-                    imageBox.Image = null;
+                    imageBox.Image = Properties.Resources.Spr_RG_Red_1;
                     break;
                 case 3:
                     // Display page message and options
@@ -222,6 +222,8 @@ namespace LostAdventure
                     option2Label.Text = "No way? Dude";
                     option3Label.Visible = false;
                     option3Button.Visible = false;
+                    imageBox.Image = Properties.Resources.Oldman2;
+
                     break;
                 case 7:
                     // Display page message and options
@@ -244,7 +246,7 @@ namespace LostAdventure
                     output2Label.Text = "NOOB ENDING";
                     option1Label.Text = ":(";
                     option2Label.Text = ":{";
-                    imageBox.Image = null
+                    imageBox.Image = null;
                     break;
 
 
@@ -317,6 +319,8 @@ namespace LostAdventure
                     option2Label.Text = "No";
                     option3Label.Visible = false;
                     option3Button.Visible = false;
+                    SoundPlayer healPlayer = new SoundPlayer(Properties.Resources.Pokemon_Red_Blue_Yellow_Music___Pokemon_Recovery);
+                    healPlayer.Play();
                     break;
 
                 case 98:

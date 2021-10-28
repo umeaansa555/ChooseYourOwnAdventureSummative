@@ -83,6 +83,16 @@ namespace LostAdventure.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap black_screen_1_260x520 {
+            get {
+                object obj = ResourceManager.GetObject("black_screen_1_260x520", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap blue {
             get {
                 object obj = ResourceManager.GetObject("blue", resourceCulture);
@@ -179,6 +189,16 @@ namespace LostAdventure.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Oldman2 {
+            get {
+                object obj = ResourceManager.GetObject("Oldman2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
         internal static System.IO.UnmanagedMemoryStream Opening___Title_Screen___Pokémon_Red_Green_Blue {
@@ -208,6 +228,15 @@ namespace LostAdventure.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Pokemon_Red_Blue_Yellow_Music___Pokemon_Recovery {
+            get {
+                return ResourceManager.GetStream("Pokemon_Red_Blue_Yellow_Music___Pokemon_Recovery", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap Professor_Oak_Lab_inside_RB {
@@ -223,6 +252,16 @@ namespace LostAdventure.Properties {
         internal static System.Drawing.Bitmap red_50x50 {
             get {
                 object obj = ResourceManager.GetObject("red_50x50", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Spr_RG_Red_1 {
+            get {
+                object obj = ResourceManager.GetObject("Spr_RG_Red_1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
