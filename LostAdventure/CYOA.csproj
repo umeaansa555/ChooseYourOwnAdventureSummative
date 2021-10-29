@@ -170,5 +170,74 @@
   <ItemGroup>
     <None Include="Resources\SFX_TURN_OFF_PC.wav" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SFX_GO_INSIDE.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SFX_GO_OUTSIDE.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SFX_HEAL_AILMENT.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SFX_HEAL_UP.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SFX_HEALING_MACHINE.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SFX_INTRO_CRASH.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SFX_INTRO_HIP.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SFX_INTRO_HOP.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SFX_INTRO_LUNGE.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SFX_INTRO_RAISE.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SFX_INTRO_WHOOSH.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SFX_LEDGE.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SFX_LEVEL_UP.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SFX_MUTED_SNARE_1.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SFX_MUTED_SNARE_2.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SFX_MUTED_SNARE_3.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SFX_MUTED_SNARE_4.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SFX_POISONED.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SFX_POKEDEX_RATING.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SFX_GET_ITEM_1.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SFX_GET_ITEM_2.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SFX_GET_KEY_ITEM.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SFX_PRESS_AB.wav" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

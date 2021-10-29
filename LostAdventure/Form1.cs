@@ -16,6 +16,8 @@ namespace LostAdventure
     {
         // Tracks what page of the story the user is at
         int page = 1;
+        SoundPlayer pressPlayer = new SoundPlayer(Properties.Resources.SFX_PRESS_AB);
+        
 
         public Form1()
         {
@@ -35,10 +37,12 @@ namespace LostAdventure
 
         private void option1Button_Click(object sender, EventArgs e)
         {
+            pressPlayer.Play();
+
             /// Check what page we are currently on, and then flip
             /// to the page you need to go to if you selected option 1
 
-            
+
             if (page == 1)
             {
                 Random randGen = new Random();
@@ -89,6 +93,8 @@ namespace LostAdventure
 
         private void option2Button_Click(object sender, EventArgs e)
         {
+            pressPlayer.Play();
+
             ///check what page we are currently on, and then flip
             ///to the page you need to go to if you selected option 2
 
@@ -142,6 +148,8 @@ namespace LostAdventure
 
         private void option3Button_Click(object sender, EventArgs e)
         {
+            pressPlayer.Play();
+
             ///check what page we are currently on, and then flip
             ///to the page you need to go to if you selected option 2
 
@@ -350,8 +358,9 @@ namespace LostAdventure
                     option2Label.Text = "";
                     option3Label.Visible = false;
                     option3Button.Visible = false;
-                    SoundPlayer endPlayer = new SoundPlayer(Properties.Resources.SFX_TURN_OFF_PC);
-                    endPlayer.Play();
+                    //if option2Button_Click(object sender, EventArgs e)
+                        SoundPlayer endPlayer = new SoundPlayer(Properties.Resources.SFX_TURN_OFF_PC);
+                        endPlayer.Play();
                     Thread.Sleep(3000);
                     Application.Exit();
                     break;

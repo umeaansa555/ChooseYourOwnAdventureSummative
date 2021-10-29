@@ -298,6 +298,42 @@ namespace LostAdventure.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
+        internal static System.IO.UnmanagedMemoryStream SFX_GET_ITEM_1 {
+            get {
+                return ResourceManager.GetStream("SFX_GET_ITEM_1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream SFX_GET_ITEM_2 {
+            get {
+                return ResourceManager.GetStream("SFX_GET_ITEM_2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream SFX_GET_KEY_ITEM {
+            get {
+                return ResourceManager.GetStream("SFX_GET_KEY_ITEM", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream SFX_PRESS_AB {
+            get {
+                return ResourceManager.GetStream("SFX_PRESS_AB", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
         internal static System.IO.UnmanagedMemoryStream SFX_TURN_OFF_PC {
             get {
                 return ResourceManager.GetStream("SFX_TURN_OFF_PC", resourceCulture);
