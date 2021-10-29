@@ -233,6 +233,7 @@ namespace LostAdventure
                     option2Label.Text = "What? No";
                     option3Label.Visible = false;
                     option3Button.Visible = false;
+                    imageBox.Image = Properties.Resources.d11b9fce62be74ec16023d75d22eda79ffdd6680r1_320_320v2_00;
                     break;
                 case 8:
                     outputLabel.Text = "You get rich as promised and completely forget about your old life. You can't remember why you ever wanted to be a pokemon trainer at all. Play again?";
@@ -247,8 +248,8 @@ namespace LostAdventure
                     outputLabel.Text = "Your sad level 9 team gets swept. Don't know what you expected.";
                     output2Label.Text = "NOOB ENDING";
                     option1Label.Text = ":(";
-                    option2Label.Text = ":{";
-                    imageBox.Image = (Properties.Resources._220_2204010_pokemon_trainer_red_sprite_hd_png_download);
+                    option2Label.Text = ":(";
+                    imageBox.Image = (Properties.Resources.Spr_RG_Red_1);
                     break;
 
 
@@ -349,6 +350,8 @@ namespace LostAdventure
                     option2Label.Text = "";
                     option3Label.Visible = false;
                     option3Button.Visible = false;
+                    SoundPlayer endPlayer = new SoundPlayer(Properties.Resources.SFX_TURN_OFF_PC);
+                    endPlayer.Play();
                     Thread.Sleep(3000);
                     Application.Exit();
                     break;

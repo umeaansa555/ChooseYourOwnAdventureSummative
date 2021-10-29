@@ -167,5 +167,8 @@
   <ItemGroup>
     <None Include="Resources\Pokemon Blue_Red - Team Rocket Game Corner.wav" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SFX_TURN_OFF_PC.wav" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
