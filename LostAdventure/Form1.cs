@@ -240,13 +240,15 @@ namespace LostAdventure
                     option1Label.Text = "";
                     option2Label.Text = "";
                     imageBox.Image = Properties.Resources.Celadon_Game_Corner_RBY;
+                    SoundPlayer casinoPlayer = new SoundPlayer(Properties.Resources.Pokemon_Blue_Red___Team_Rocket_Game_Corner);
+                    casinoPlayer.Play();
                     break;
                 case 9:
                     outputLabel.Text = "Your sad level 9 team gets swept. Don't know what you expected.";
                     output2Label.Text = "NOOB ENDING";
                     option1Label.Text = ":(";
                     option2Label.Text = ":{";
-                    imageBox.Image = null;
+                    imageBox.Image = (Properties.Resources._220_2204010_pokemon_trainer_red_sprite_hd_png_download);
                     break;
 
 
@@ -269,7 +271,7 @@ namespace LostAdventure
                     outputLabel.Text = "You drain these poor bug catchers of their exp and pocket money. You're the strongest trainer in the forest and maybe even all of kanto but at what cost...";
                     output2Label.Text = "Was it worth it?\nMERCILESS ENDING";
                     option1Label.Text = "...";
-                    option1Label.ForeColor = Color.Red;
+                    option2Label.ForeColor = Color.Red;
                     option2Label.Text = "...";
                     break;
                 case 13:

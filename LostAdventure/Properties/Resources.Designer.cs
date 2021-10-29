@@ -63,6 +63,26 @@ namespace LostAdventure.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _220_2204010_pokemon_trainer_red_sprite_hd_png_download {
+            get {
+                object obj = ResourceManager.GetObject("_220_2204010_pokemon_trainer_red_sprite_hd_png_download", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _721_7212223_pokemon_rby_brock_sprite {
+            get {
+                object obj = ResourceManager.GetObject("_721_7212223_pokemon_rby_brock_sprite", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap arcade_blue {
             get {
                 object obj = ResourceManager.GetObject("arcade_blue", resourceCulture);
@@ -135,6 +155,16 @@ namespace LostAdventure.Properties {
         internal static System.Drawing.Bitmap Celadon_Game_Corner_RBY {
             get {
                 object obj = ResourceManager.GetObject("Celadon_Game_Corner_RBY", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap d11b9fce62be74ec16023d75d22eda79ffdd6680r1_320_320v2_00 {
+            get {
+                object obj = ResourceManager.GetObject("d11b9fce62be74ec16023d75d22eda79ffdd6680r1_320_320v2_00", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -224,6 +254,15 @@ namespace LostAdventure.Properties {
             get {
                 object obj = ResourceManager.GetObject("Pewter_Gym_RBY", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Pokemon_Blue_Red___Team_Rocket_Game_Corner {
+            get {
+                return ResourceManager.GetStream("Pokemon_Blue_Red___Team_Rocket_Game_Corner", resourceCulture);
             }
         }
         

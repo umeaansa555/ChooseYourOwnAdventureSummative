@@ -155,5 +155,17 @@
   <ItemGroup>
     <None Include="Resources\black-screen-1-260x520.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\220-2204010_pokemon-trainer-red-sprite-hd-png-download.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\721-7212223_pokemon-rby-brock-sprite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d11b9fce62be74ec16023d75d22eda79ffdd6680r1-320-320v2_00.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pokemon Blue_Red - Team Rocket Game Corner.wav" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
