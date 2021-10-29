@@ -246,8 +246,8 @@ namespace LostAdventure
                 case 8:
                     outputLabel.Text = "You get rich as promised and completely forget about your old life. You can't remember why you ever wanted to be a pokemon trainer at all. Play again?";
                     output2Label.Text = "OLD MAN ENDING";
-                    option1Label.Text = "";
-                    option2Label.Text = "";
+                    option1Label.Text = "By the way, this game does not reflect my values";
+                    option2Label.Text = "Don't try this in real life.";
                     imageBox.Image = Properties.Resources.Celadon_Game_Corner_RBY;
                     SoundPlayer casinoPlayer = new SoundPlayer(Properties.Resources.Pokemon_Blue_Red___Team_Rocket_Game_Corner);
                     casinoPlayer.Play();
@@ -361,7 +361,7 @@ namespace LostAdventure
                     //if option2Button_Click(object sender, EventArgs e)
                         SoundPlayer endPlayer = new SoundPlayer(Properties.Resources.SFX_TURN_OFF_PC);
                         endPlayer.Play();
-                    Thread.Sleep(3000);
+                    Thread.Sleep(2500);
                     Application.Exit();
                     break;
                 default:
