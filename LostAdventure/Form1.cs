@@ -277,14 +277,14 @@ namespace LostAdventure
                     option2Label.Text = "Yes mercy?!";
                     break;
                 case 12:
-                    outputLabel.Text = "You drain these poor bug catchers of their exp and pocket money. You're the strongest trainer in the forest and maybe even all of kanto but at what cost...";
-                    output2Label.Text = "Was it worth it?\nMERCILESS ENDING";
+                    outputLabel.Text = "You drain these poor bug catchers of their exp and pocket money. You're the strongest trainer in the forest and maybe even all of Kanto but at what cost...\nWas it worth it?";
+                    output2Label.Text = "MERCILESS ENDING";
                     option1Label.Text = "...";
                     option2Label.ForeColor = Color.Red;
                     option2Label.Text = "...";
                     break;
                 case 13:
-                    outputLabel.Text = "Uh oh. It's a level 100 Nidoking wyd";
+                    outputLabel.Text = "Uh oh. It's a level 100 Nidoking. Wyd";
                     output2Label.Text = "Do you fight, and attempt to catch it, or run?";
                     option1Label.Text = "Fight";
                     option2Label.Text = "Run";
@@ -292,9 +292,9 @@ namespace LostAdventure
                 case 14:
                     // the variable isn't meant to work i threw it in as a joke
                     outputLabel.Text = "You get one attack in and then Nidoking whips your {chosenStarter} and the rest of your team promptly.";
-                    output2Label.Text = "What were you thinking???";
-                    option1Label.Text = "uhmmm";
-                    option2Label.Text = "uhhh";
+                    output2Label.Text = "What were you thinking???\nFAIL ENDING";
+                    option1Label.Text = "Ummm";
+                    option2Label.Text = "Uhhh";
                     break;
                 case 15:
                     outputLabel.Text = "You make it out of the forest (not wholly the same person as you were before) and arrive at Pewter City.";
@@ -311,8 +311,8 @@ namespace LostAdventure
                 case 17:
                     outputLabel.Text = "She lied?? There's no opportunity at Team Rocket. You spend the rest if your life as a measly rocket grunt, never promoted";
                     output2Label.Text = "ROCKET ENDING";
-                    option1Label.Text = "Dang";
-                    option2Label.Text = "Shoot";
+                    option1Label.Text = "Shoot";
+                    option2Label.Text = "Darn";
                     break;
                 case 18:
                     outputLabel.Text = "Your good sense and reason have brought you this far. You challenge Brock and win!";
@@ -341,15 +341,19 @@ namespace LostAdventure
                     option2Label.Text = "No";
                     option3Label.Visible = false;
                     option3Button.Visible = false;
+                    SoundPlayer winPlayer = new SoundPlayer(Properties.Resources.SFX_GET_KEY_ITEM);
+                    winPlayer.Play();
                     break;
                 case 97:
-                    outputLabel.Text = "You.. Win? But that's not the true ending! Keep playing to find them all ;)\nHint: Theres 7";
+                    outputLabel.Text = "You.. Win? But that's not the true ending! Keep playing to find them all ;)\nHint: There's 7";
                     output2Label.Text = "Play again?";
                     option1Label.ForeColor = Color.Black;
                     option1Label.Text = "Yes";
                     option2Label.Text = "No";
                     option3Label.Visible = false;
                     option3Button.Visible = false;
+                    SoundPlayer losePlayer = new SoundPlayer(Properties.Resources.SFX_GET_ITEM_2);
+                    losePlayer.Play();
                     break;
                 case 96:
                     outputLabel.Text = "Thanks for playing :)";
@@ -358,10 +362,9 @@ namespace LostAdventure
                     option2Label.Text = "";
                     option3Label.Visible = false;
                     option3Button.Visible = false;
-                    //if option2Button_Click(object sender, EventArgs e)
                         SoundPlayer endPlayer = new SoundPlayer(Properties.Resources.SFX_TURN_OFF_PC);
                         endPlayer.Play();
-                    Thread.Sleep(2500);
+                    Thread.Sleep(2000);
                     Application.Exit();
                     break;
                 default:
