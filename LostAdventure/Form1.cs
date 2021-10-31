@@ -10,6 +10,10 @@ using System.Windows.Forms;
 using System.Threading;
 using System.Media;
 
+// A. Ansari Oct 2021
+// Choose your own adventure summative
+// I do not own the rights to Pokemon or any sounds/media used here
+
 namespace LostAdventure
 {
     public partial class Form1 : Form
